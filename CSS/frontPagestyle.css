@@ -53,6 +53,13 @@ margin-top:20px;
 
 }
 
+.imagefloater
+{
+float:right;
+padding:40px;
+margin-top:20px;
+}
+
 .icons
 {
 margin-left:auto;
