@@ -1,5 +1,6 @@
 
-var site_folder = "/elijah_js"; // if site is ROOT then make this field ""
+var site_folder = ""; // if site is ROOT then make this field ""
+
 
 function makeNavLink(linkname,location)
 {
@@ -9,12 +10,36 @@ var htmlcode = "<li><a class='banner' href='"+tag +"' >"+linkname+"</a></li>";
 document.writeln(htmlcode);
 }
 
+function writeParagraph(text,css_class)
+{
+document.write("<p class="+css_class+"> </br>");
+document.write(text);
+document.write("</p>");
+}
+
+function writeDiv(text ,css_class)
+{
+document.write("<div class="+css_class+"> </br>");
+document.write(text);
+document.write("</div>");
+}
+
+function writeNewline()
+{
+document.write("</br>");
+}
+function writeImageParagraph(location,css_class)
+{
+var htmlcode = "<p class="+css_class+"><img  src='"+location+"' > </p>";
+document.write(htmlcode);
+}
+
+
+
 function makeLink(linkname, location)
 {
-
 var htmlcode = "<a href=\"http://"+window.location.hostname+site_folder+location+"\"> "+linkname+" </a>";
 document.write(htmlcode);
-
 }
 
 function putICONS()
@@ -29,5 +54,11 @@ function putImageSide(path)
 document.write("<div class=\"imagefloater\"><figure><img  src=\""+path+"\" alt=\"Elijah Jensen \"  /><figcaption style=\"text-align:center\"></figcaption></figure></div>");
 
 }
+
+
+
+
+
+
 
 
