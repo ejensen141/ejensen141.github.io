@@ -36,7 +36,7 @@ var text2 = "<div style=\" margin-left:20%;width:300px;overflow:auto;\"> \
 
 putImageSide("media/1.jpg");
 writeParagraph(text1,"one"); // this is css class one
-writeParagraph(text2,"one"); 
+//writeParagraph(text2,"one"); 
 //writeImageParagraph("media/1.jpg","one");
 sh_highlightDocument();
 //writeParagraph(text1,"one");
