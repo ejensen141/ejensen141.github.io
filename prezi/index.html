@@ -1,0 +1,273 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    
+    <title>Waves Talk</title>
+    
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+ 
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    
+
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+
+<!--
+    
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+    
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+    
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+    
+    The class name on body element also depends on currently active presentation step. More details about
+    it can be found later, when `hint` element is being described.
+    
+-->
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+ <div id="bored" class="step" data-x="-1000" data-y="-1500" data-rotate="90" data-scale="0.5">
+ <q> <h1> <b style="text-size:24px"> Waves and Light </b> </h1> </br> </br>
+
+<b>Elijah R. Jensen M.S. </b> </br> Physics Dept. <br>University of Louisville  </q>
+    </div>
+
+  
+
+
+
+     <div id="step-2" class="step" data-x="0" data-y="-1500" data-rotate="0" data-scale="1">
+        <q> <b>  </b><img src="background.jpg" width="100%"> </img> </q>
+    </div>
+
+
+<div id="step-3" class="step" data-x="1000" data-y="-1500" data-rotate="0" data-scale="1">
+What is a Wave??? </br> 
+
+</div>
+
+<div id="step-3" class="step" data-x="1000" data-y="-1500" data-rotate="0" data-scale="1">
+
+</br>
+</br>
+</br>
+
+<i> Oscillating motion in time and space.<i>
+</div>
+
+
+
+<div id="step-4" class="step" data-x="2000" data-y="-1500" data-rotate="0" data-scale="1">
+<iframe width="640" height="390" src="https://www.youtube.com/embed/T7fRGXc9SBI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+
+  <div id="step-5" class="step" data-x="3000" data-y="-1500" data-rotate="0" data-scale="1">
+        <q> <b> Rock in a Pond </b><img src="ripples-in-water.jpg" width="100%"> </img> </q>
+    </div>
+
+
+	
+
+    <div id="step-6" class="step" data-x="4000" data-y="-1500" data-rotate="0" data-scale="1">
+        <q>
+    <iframe width="640" height="390" src="https://www.youtube.com/embed/egRFqSKFmWQ" frameborder="0" allowfullscreen></iframe>
+
+$v = f \lambda $  </br>
+
+$\lambda = $ wavelength
+
+</q>
+	
+
+</div>
+
+ <div id="step-7" class="step" data-x="5000" data-y="-1500" data-rotate="0" data-scale="1">
+        
+<iframe width="640" height="390" src="https://www.youtube.com/embed/ovZkFMuxZNc" frameborder="0" allowfullscreen></iframe>
+Superposition.
+</div>
+
+
+
+
+    <!--
+        
+        This is an example of step element being scaled.
+        
+        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
+        element will be 4 times larger than the others.
+        From presentation and transitions point of view it means, that it will have to be scaled
+        down (4 times) to make it back to its correct size.
+        
+    -->
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try"> </span>
+        <h1>Light Waves</h1>
+        <span class="footnote"><sup></sup> </span>
+    </div>
+
+    <!--
+        
+        This element introduces rotation.
+        
+        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+        element should be rotated by 90 degrees clockwise.
+        
+    -->
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>Light <strong>waves</strong> <br/>
+        are made of Electric and   <br/>
+        Magnetic <strong>Fields</strong> that propagate through space.</p>
+<img src="Electromagneticwave3Dfromside.gif" width="400px"> </img>
+
+
+
+    </div>
+
+    <div id="big" class="step" data-x="4500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>Not all light waves are visible!</p>
+    </div>
+
+   
+    <div id="tiny" class="step" data-x="3825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>Some are hard or even <strong>Impossible</strong> to see!</p>
+	
+    </div>
+
+<div id="tiny-2" class="step" data-x="4825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p><img src="EM_spectrum.svg" width="100%"> </img></p>
+	
+    </div>
+
+
+
+
+ <div id="step-9" class="step" data-x="10000" data-y="2325" data-rotate="0" data-scale="1">
+        
+<img src="rainbow.jpg" width="100%"> </img>
+</div>
+
+
+ <div id="step-10" class="step" data-x="11000" data-y="2325" data-rotate="0" data-scale="1">
+        
+<img src="Light_dispersion.gif" width="100%"> </img>
+Dispersion, Refraction, and Diffraction.
+</div>
+
+ <div id="step-11" class="step" data-x="12000" data-y="2325" data-rotate="0" data-scale="1">
+        
+<img src="prism.jpg" width="100%"> </img>
+
+</div>
+
+
+<div id="step-12" class="step" data-x="13000" data-y="2325" data-rotate="0" data-scale="1">
+       
+<img src="ThomasYoung.jpg" width="200px"> </img>
+ Thomas Young
+
+<img src="diffract.gif" width="400px"> </img>
+</div>
+   
+
+
+<div id="step-13" class="step" data-x="13500" data-y="2325" data-rotate="0" data-scale="1">
+       
+LETS TRY IT!
+
+</div>
+
+
+<div id="step-14" class="step" data-x="13500" data-y="2325" data-rotate="0" data-scale="1">
+       
+</br>
+</br>
+Physics is PHUN!
+
+</div>
+   
+
+<div id="step-15" class="step" data-x="15000" data-y="2325" data-rotate="0" data-scale="1">
+<img src="sky-2.jpg" width="100%"></img>
+Why is the sky blue? 
+</br>
+</br>
+IS the sky <strong>Really</strong> blue?
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="its-in-3d" class="step" data-x="10200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p style="font-size:100px"> Thank you! </p>
+       
+    </div>
+
+
+    <div id="its-in-3d-2" class="step" data-x="10200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p style="font-size:100px"> </br> </br> Questions? </p>
+       
+    </div>
+
+
+    <div id="overview" class="step" data-x="5000" data-y="1500" data-scale="15">
+    </div>
+
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+</body>
+</html>
+
+
