@@ -51,7 +51,7 @@ document.write("<div class = \"icons\"><ul><li><a class= 'banner' href='https://
 
 function putImageSide(path)
 {
-document.write("<div class=\"imagefloater\"><figure><img  src=\""+path+"\" alt=\"Elijah Jensen \"  /><figcaption style=\"text-align:center\"></figcaption></figure></div>");
+document.write("<div class=\"imagefloater\"><figure><img  src=\""+path+"\" alt=\"Elijah Jensen \" width=\"50%\" /><figcaption style=\"text-align:center\"></figcaption></figure></div>");
 
 }
 
