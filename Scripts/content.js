@@ -9,7 +9,7 @@ undergraduate physics labs as well, some material for those classes can be \
 found under \"Classes\".<br><br>All the material on this site is free and open \
 source, feel free to use anything you want, for whatever you want. \
 That is after all the goal of science, sharing information! <br><br>The \
-following buttons will allow you to contact me however you would like.";
+following buttons will allow you to contact me however you would like. </br> </br> </br>";
 
 
 var text2 = "<div style=\" margin-left:20%;width:300px;overflow:auto;\"> \
