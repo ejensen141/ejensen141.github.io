@@ -53,7 +53,7 @@
 
 <div id="impress">
 
- <div id="bored" class="step" data-x="-1000" data-y="-1500" data-rotate="90" data-scale="0.5">
+ <div id="bored" class="step" data-x="-2000" data-y="-2000" data-rotate="90" data-scale="1">
  <q> <h1> <b style="text-size:24px"> NOVEL INFRARED SENSORS AND APPLICATIONS </b> </h1> </br> </br>
 
 <b>Elijah R. Jensen B.S. M.S. </b> </br> Physics Dept. <br>University of Louisville  </q>
@@ -63,16 +63,16 @@
 
 
 
-     <div id="step-2" class="step" data-x="0" data-y="-1500" data-rotate="0" data-scale="0.25">
+     <div id="step-2" class="step" data-x="0" data-y="-1500" data-rotate="0" data-scale="1">
      Educational  Background: 
         </br>
 </br>
 2015: UofL M.S. in Physics 
 </br>
 </br>
-2013: Univeristy of Vermont ECE Dept.
+2013: University of Vermont ECE Dept.
 </br></br>
-2012: Austin Peay State Univeristy B.S. in Physics (Magna Cum Laude)
+2012: Austin Peay State University B.S. in Physics (Magna Cum Laude)
         </br>
         
     </div>
@@ -87,7 +87,8 @@
 
 
 <img src="EM_spectrum.png" width="100%"> </img> 
-
+300Ghz -> 430Thz  <br>  
+1mm -> 700nm
 </div>
 
 
@@ -171,7 +172,7 @@ What can we DO with IR sensing?</br>
 
 
 
-  <div style="background-image:url('background.jpg')" id="step-6" class="step" data-x="3000" data-y="-1500" data-rotate="0" data-scale="1">
+  <div style="" id="step-6" class="step" data-x="3000" data-y="-1500" data-rotate="0" data-scale="1">
         <q> <b> Astronomy </b><img src="atmo_transmittance_med.jpg" width="100%"> </img> </q>
     </div>
 
@@ -180,7 +181,9 @@ What can we DO with IR sensing?</br>
         <q> <b> </b><img src="background.jpg" width="100%"> </img> </q>
     </div>
 
-
+  <div  id="step-6" class="step" data-x="3000" data-y="-1500" data-rotate="0" data-scale="1">
+        <q> <b> </b><img src="window.png" width="100%"> </img> </q>
+    </div>
 	
 
     <div id="step-7" class="step" data-x="4000" data-y="-1500" data-rotate="0" data-scale="1">
@@ -215,6 +218,16 @@ What can we DO with IR sensing?</br>
      
      
      </q>
+        
+
+</div>
+
+
+ <div id="step-8" class="step" data-x="5000" data-y="-1500" data-rotate="0" data-scale="1">
+     
+     
+     <img src="penetration_depth.png" width="100%">	
+     
         
 
 </div>
@@ -263,7 +276,7 @@ What can we DO with IR sensing?</br>
   
   <li>Develop Novel Experimental Hardware <br></li>
   <li>Develop Algorithms and Tests for Hardware <br> </li>
-  <li>Prototype/POC bleeding edge detectors <br></li>
+  <li>Prototype/POC leading edge detectors <br></li>
   
 </ul>
 
@@ -328,7 +341,7 @@ What can we DO with IR sensing?</br>
   
   <li>Develop Novel Experimental Hardware <br></li>
   <li> <b> Develop Algorithms and Tests for Hardware </b> <br> </li>
-  <li>  Prototype/POC bleeding edge detectors  <br></li>
+  <li>  Prototype/POC leading edge detectors  <br></li>
   
 </ul>
 
@@ -371,6 +384,26 @@ What can we DO with IR sensing?</br>
 
 </div>
 
+ <div id="step-19" class="step" data-x="13000" data-y="-2500" data-rotate="0" data-scale="1">
+      <b>  2D-FFT-Peak Sensing Real Time Code </b> </br></br>
+        
+        
+        <img style="float:left" src="fftnormabs.png" width="50%"> </img>
+        <img src="truck_select.png" width="50%"> </img>
+        
+</br></br>
+
+
+
+
+
+
+
+</div>
+
+
+
+
 
  <div id="step-20" class="step" data-x="14000" data-y="-1500" data-rotate="0" data-scale="1">
       <b> Develop Algorithms and Tests for Hardware: Embedded </b> </br></br>
@@ -390,7 +423,7 @@ Camera should do processing "itself"
   
   <li>Develop Novel Experimental Hardware <br></li>
   <li>Develop Algorithms and Tests for Hardware <br> </li>
-  <li> <b> Prototype/POC bleeding edge detectors </b> <br></li>
+  <li> <b> Prototype/POC leading edge detectors </b> <br></li>
   
 </ul>
 
@@ -500,14 +533,14 @@ Camera should do processing "itself"
  <div id="step-24" class="step" data-x="8000" data-y="2500" data-rotate="0" data-scale="1">
       <b> Rectification</b> <br>
      
-    <img style="transform: rotate(90deg)"src="rectify.svg" width="300px"> </img>
+    <img style=""src="rectennaschem.gif" width="60%"> </img>
     
     <ul  style="list-style-type:circle" > 
   
   <li> Diode Parasitic Capacitance <br></li>
   <li> Diode Resistance <br> </li>
 </ul> 
-
+MIM diode (Grover et. al. 2012) <br>
 ~Dual Layer MIIM tunneling diode 
     
     
@@ -515,11 +548,12 @@ Camera should do processing "itself"
 
 
  <div id="step-25" class="step" data-x="9000" data-y="2500" data-rotate="0" data-scale="1">
-      <b> Skin Effect</b> </br>  </br>
+      <b> Skin Effect</b> </br>
+      Caused by opposing eddy currents induced by the changing magnetic field.  </br>
       <img src="skineffect.png" width="400px"> </img>
       <br>
       
-    How do we solve this problem? <br>
+    Copper ~= 7.5nm.  So how do we solve this problem? <br>
     <b>Graphene! </b>
     
      </br> </br>
@@ -551,7 +585,28 @@ Camera should do processing "itself"
      </br> </br>
 </div>
 
- <div id="step-28" class="step" data-x="12000" data-y="2500" data-rotate="0" data-scale="1">
+
+
+ <div id="step-28" class="step" data-x="13000" data-y="2500" data-rotate="0" data-scale="1">
+     <b> Device Design </b>   </br>
+
+   <img src="MIIM.jpg" width="100%"> </img>
+   
+   Replace M1 and M2 with Graphene for Room Temp. SIS detector.
+</div>
+
+ <div id="step-29" class="step" data-x="14000" data-y="2500" data-rotate="0" data-scale="1">
+     <b> Device Design </b>   </br>
+
+   <img src="Spiral.jpg" width="100%"> </img>
+   
+   Reverse Design for Better Efficiency? 
+</div>
+
+
+
+
+<div id="step-30" class="step" data-x="15000" data-y="2500" data-rotate="0" data-scale="1">
      <b> Fabrication: </b>   </br>
       </br>
         CVD 
@@ -568,27 +623,9 @@ Camera should do processing "itself"
 </div>
 
 
- <div id="step-29" class="step" data-x="13000" data-y="2500" data-rotate="0" data-scale="1">
-     <b> Device Design </b>   </br>
-
-   <img src="MIIM.jpg" width="100%"> </img>
-   
-   Replace M1 and M2 with Graphene for Room Temp. SIS detector.
-</div>
-
- <div id="step-30" class="step" data-x="14000" data-y="2500" data-rotate="0" data-scale="1">
-     <b> Device Design </b>   </br>
-
-   <img src="Spiral.jpg" width="100%"> </img>
-   
-   Reverse Design for Better Efficiency? 
-</div>
 
 
-
-
-
- <div id="step-31" class="step" data-x="16000" data-y="2500" data-rotate="0" data-scale="1">
+ <div id="step-31" class="step" data-x="18000" data-y="2500" data-rotate="0" data-scale="1">
      <b> 2 year Project Outline</b>   </br>
 
    <img src="gantt.png" width="150%" height="100%"> </img>
@@ -597,11 +634,11 @@ Camera should do processing "itself"
 </div>
 
 
+ 
 
 
 
-
- <div style="font-size:20px" id="step-32" class="step" data-x="18000" data-y="2500" data-rotate="0" data-scale="1">
+ <div style="font-size:20px" id="step-32" class="step" data-x="19000" data-y="2500" data-rotate="0" data-scale="1">
      <b> References:</b>   </br>
      
      http://earthguide.ucsd.edu/eoc/special_topics/teach/sp_climate_change/images/atmo_transmittance_med.jpg
@@ -627,6 +664,14 @@ https://en.wikipedia.org/wiki/Infrared
 http://pubs.acs.org/doi/pdf/10.1021/nl301774e
 
 https://en.wikipedia.org/wiki/Skin_effect#/media/File:Skin_depth.svg
+
+http://coolcadelectronics.com/portfolio-item/infrared-rectennas/
+
+
+https://en.wikipedia.org/wiki/Near-infrared_window_in_biological_tissue
+
+
+https://en.wikipedia.org/wiki/Photolithography
 </div>
 
 
