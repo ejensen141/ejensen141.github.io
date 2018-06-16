@@ -1,14 +1,15 @@
 
 var text1 = "My name is Elijah Jensen. \
-I hold a B.S. degree in Physics from Austin Peay state university and a Masters of Science degree in Physics from the University of Louisville. I am currently pursuing my PhD. in Physics at the University of Louisville. \
-I do research in Optics, Antenna Design, and Electrical Engineering. My main interest in physics is the physics of electromagnetic waves,\
+I hold a B.S. degree in Physics from Austin Peay state university and a Masters of Science degree in Physics from the University of Louisville. I am currently PhD Graduand in Physics at the University of Louisville. \
+I do research in Optics, Antenna Design, Electrical Engineering and Aerospace Engineering. My main interest in physics is the physics of electromagnetic waves,\
  as well as any other kind of wave. My main interest in Engineering is Aerospace hardware, as well as sustainable energy technology. For a more detailed look at my \
- research please see the research page of this site.<br><br>I teach some \
+ research please see the research page of this site.<br><br>I have taught some \
 undergraduate physics labs as well, some material for those classes can be \
 found under \"Classes\".<br><br>All the material on this site is free and open \
 source, feel free to use anything you want, for whatever you want. \
 That is after all the goal of science, sharing information! <br><br>The \
 following buttons will allow you to contact me however you would like. </br> </br> </br>";
+
 
 
 var text2 = "<div style=\" margin-left:20%;width:300px;overflow:auto;\"> \
@@ -35,12 +36,8 @@ var text2 = "<div style=\" margin-left:20%;width:300px;overflow:auto;\"> \
 
 putImageSide("media/1.jpg");
 writeParagraph(text1,"one"); // this is css class one
-//writeParagraph(text2,"one"); 
+//writeParagraph(text2,"one");
 //writeImageParagraph("media/1.jpg","one");
 sh_highlightDocument();
 //writeParagraph(text1,"one");
 putICONS();
-
-
-
-
