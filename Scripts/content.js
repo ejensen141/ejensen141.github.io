@@ -1,6 +1,6 @@
 
 var text1 = "My name is Elijah Jensen. \
-I hold a B.S. degree in Physics from Austin Peay state university and a Masters of Science degree in Physics from the University of Louisville. I am currently PhD Graduand in Physics at the University of Louisville. \
+I hold a B.S. degree in Physics from Austin Peay state university and a Masters of Science degree in Physics from the University of Louisville. I am currently a PhD Graduand in Physics at the University of Louisville. \
 I do research in Optics, Antenna Design, Electrical Engineering and Aerospace Engineering. My main interest in physics is the physics of electromagnetic waves,\
  as well as any other kind of wave. My main interest in Engineering is Aerospace hardware, as well as sustainable energy technology. For a more detailed look at my \
  research please see the research page of this site.<br><br>I have taught some \
