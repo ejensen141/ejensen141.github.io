@@ -1,10 +1,10 @@
 
 var text1 = "My name is Elijah Jensen. \
-I hold a B.S. degree in Physics from Austin Peay state university and a Masters of Science degree in Physics from the University of Louisville. I am currently a PhD Graduand in Physics at the University of Louisville. \
+I hold a B.S. degree in Physics from Austin Peay state university and a Ph.D. in Physics from the University of Louisville. \
 I do research in Optics, Antenna Design, Electrical Engineering and Aerospace Engineering. My main interest in physics is the physics of electromagnetic waves,\
- as well as any other kind of wave. My main interest in Engineering is Aerospace hardware, as well as sustainable energy technology. For a more detailed look at my \
- research please see the research page of this site.<br><br>I have taught some \
-undergraduate physics labs as well, some material for those classes can be \
+ as well as any other kind of wave. My main interests in Engineering are Aerospace hardware, and sustainable energy technology. For a more detailed look at my \
+ research please see the research page of this site.<br><br>I teach undergraduate physics courses as well \
+some material for those classes can be \
 found under \"Classes\".<br><br>All the material on this site is free and open \
 source, feel free to use anything you want, for whatever you want. \
 That is after all the goal of science, sharing information! <br><br>The \
